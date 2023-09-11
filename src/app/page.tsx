@@ -11,6 +11,7 @@ export default function Home() {
         <Link href={"pages/page2"} className='px-4 py-2 text-xl rounded-lg bg-indigo-300 text-gray-100'>Page 2</Link>
         <Link href={"pages/page3"} className='px-4 py-2 text-xl rounded-lg bg-indigo-300 text-gray-100'>Page 3</Link>
       </div>
+      
     </main>
   )
 }
