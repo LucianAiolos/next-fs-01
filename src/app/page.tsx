@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import Button from './components/shared/button/button'
 
 export default function Home() {
   return (
@@ -10,8 +11,9 @@ export default function Home() {
         <Link href={"pages/page1"} className='px-4 py-2 text-xl rounded-lg bg-indigo-300 text-gray-100'>Page 1</Link>
         <Link href={"pages/page2"} className='px-4 py-2 text-xl rounded-lg bg-indigo-300 text-gray-100'>Page 2</Link>
         <Link href={"pages/page3"} className='px-4 py-2 text-xl rounded-lg bg-indigo-300 text-gray-100'>Page 3</Link>
+        <Button linkUrl={'pages/page1'}/>
       </div>
-      
+
     </main>
   )
 }
